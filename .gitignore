@@ -40,6 +40,5 @@ next-env.d.ts
 /app/events
 /app/favorites
 /app/hooks
-/app/libs
 
 
