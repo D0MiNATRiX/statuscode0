@@ -53,7 +53,7 @@ const UserMenu: React.FC<UserMenuProps> = ({
             py-3 
             px-4 
             rounded-full 
-            hover:bg-neutral-100 
+            hover:bg-green-300 
             transition 
             cursor-pointer
           "
@@ -74,7 +74,7 @@ const UserMenu: React.FC<UserMenuProps> = ({
           gap-3 
           rounded-full 
           cursor-pointer 
-          hover:shadow-md 
+          hover:bg-green-300 
           transition
           "
         >
@@ -102,10 +102,6 @@ const UserMenu: React.FC<UserMenuProps> = ({
           <div className="flex flex-col cursor-pointer">
             {currentUser ? (
               <>
-                <MenuItem 
-                  label="My Profile" 
-                  onClick={() => router.push('/profile')}
-                />
                 <MenuItem 
                   label="RSVPed" 
                   onClick={() => router.push('/rsvp')}
