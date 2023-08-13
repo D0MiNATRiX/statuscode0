@@ -39,6 +39,5 @@ next-env.d.ts
 /app/components
 /app/events
 /app/favorites
-/app/hooks
 
 
